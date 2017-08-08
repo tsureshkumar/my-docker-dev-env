@@ -1,0 +1,2 @@
+# build the docker image
+docker build --build-arg USERNAME=tsureshkumar -t suresh/cppdevel:latest $* .
